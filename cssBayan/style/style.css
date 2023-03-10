@@ -19,7 +19,7 @@ h1 {
 
 .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     color: #06f;
 }
 
@@ -27,7 +27,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
-    border-top: 1px solid black;
+    border-top: 1px solid black; /*Switch #808080 */
 }
 
 .input-container {
@@ -89,8 +89,11 @@ input:checked ~ .plus-container {
     cursor: pointer;
 }
 
-
-
 input:checked ~ .meme-container {
     display: block;
 }
+
+/*
+Adjust the smoothness 
+Stretch checkbox
+*/

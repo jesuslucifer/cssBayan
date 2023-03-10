@@ -1,0 +1,62 @@
+
+
+body {
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1 {
+    font-family: Arial Black, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    color: #06f;
+}
+
+span {
+    border-top: 1px solid black;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.plus-container {
+    width: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.input-container {
+    display: none;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.label-container {
+    font-family: Arial Black, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-size: 1em;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+  
+  .plus-container {
+    display: none;
+    width: 18px;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    justify-self: end;
+  }
+
+  .meme-container {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }

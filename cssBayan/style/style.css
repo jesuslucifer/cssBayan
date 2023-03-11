@@ -51,7 +51,7 @@ h1 {
     width: 1.2rem;
     grid-row: 1 / 2;
     grid-column: 3 / 3;
-    justify-self: end; /*Сделать подстветку чекед элемента*/
+    justify-self: end; 
     transition: 0.1s;
 }
 

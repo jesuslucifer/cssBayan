@@ -178,8 +178,18 @@ input:checked ~ .text-container {
         color: black;
     }
     
-    .main:hover > .plus-container{
+    .main:hover .plus-container{
         visibility: visible;
+    }
+
+    input:active ~ .text-container {
+        color: #06f;
+        transition: 0.1s;
+    }
+
+    input:active ~ .plus-container {
+        filter: invert(24%) sepia(76%) saturate(4114%) hue-rotate(212deg) brightness(103%) contrast(105%);
+        transition: 0.1s;
     }
     
 }

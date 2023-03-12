@@ -52,7 +52,7 @@ h1 {
     grid-row: 1 / 2;
     grid-column: 3 / 3;
     justify-self: end; 
-    transition: 0.1s;
+    transition: 0.5s;
 }
 
 .meme-container {
@@ -76,8 +76,8 @@ input:checked ~ .text-container {
 }
 
 @keyframes ani {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {scale: 0.5;}
+    100% {scale: 1;}
 }
 
 @media screen and (min-width: 320px) {
@@ -157,6 +157,10 @@ input:checked ~ .text-container {
         width: 1.2rem;
         visibility: hidden;
     }
+    
+}
+
+@media (hover: hover) {
 
     .container:hover > .meme-container {
         display: block;
@@ -174,9 +178,8 @@ input:checked ~ .text-container {
         color: black;
     }
     
-    .main:hover .plus-container{
+    .main:hover > .plus-container{
         visibility: visible;
     }
     
-
 }
